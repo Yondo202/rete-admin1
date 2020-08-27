@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "infheads",
+  "info": {
+    "name": "infhead"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Desc": {
+      "type": "text"
+    }
+  }
+}

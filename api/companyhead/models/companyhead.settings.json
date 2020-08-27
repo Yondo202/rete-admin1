@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "companyheads",
+  "info": {
+    "name": "Companyhead"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SmTitle": {
+      "type": "string"
+    },
+    "Desc": {
+      "type": "text"
+    }
+  }
+}

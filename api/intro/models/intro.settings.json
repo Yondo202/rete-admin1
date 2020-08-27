@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "intros",
+  "info": {
+    "name": "Intro"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "SmTitle": {
+      "type": "string"
+    },
+    "Desc": {
+      "type": "text"
+    },
+    "TotalworkCount": {
+      "type": "string"
+    },
+    "TotalInfCount": {
+      "type": "string"
+    },
+    "TotalCorpCount": {
+      "type": "string"
+    },
+    "ContentBuildersCount": {
+      "type": "string"
+    }
+  }
+}

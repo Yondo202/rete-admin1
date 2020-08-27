@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/homechange-2",
+      "handler": "homechange2.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/homechange-2",
+      "handler": "homechange2.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/homechange-2",
+      "handler": "homechange2.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

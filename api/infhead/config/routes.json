@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/infhead",
+      "handler": "infhead.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/infhead",
+      "handler": "infhead.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/infhead",
+      "handler": "infhead.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

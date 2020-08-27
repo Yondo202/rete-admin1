@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "influencerbodies",
+  "info": {
+    "name": "Influencerbodies"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Desc": {
+      "type": "string"
+    },
+    "Img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

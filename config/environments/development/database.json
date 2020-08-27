@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "database": "reteworld",
+        "host": "cluster0.g3ez7.mongodb.net",
+        "srv": "true",
+        "port": 27017,
+        "username": "reteworld",
+        "password": "killer951988"
+      },
+      "options": {
+        "authenticationDatabase": "",
+        "ssl": true
+      }
+    }
+  }
+}

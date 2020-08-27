@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/influencerbodies",
+      "handler": "influencerbodies.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/influencerbodies/count",
+      "handler": "influencerbodies.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/influencerbodies/:id",
+      "handler": "influencerbodies.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/influencerbodies",
+      "handler": "influencerbodies.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/influencerbodies/:id",
+      "handler": "influencerbodies.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/influencerbodies/:id",
+      "handler": "influencerbodies.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
