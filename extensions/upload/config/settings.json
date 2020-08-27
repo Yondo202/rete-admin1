@@ -1,0 +1,21 @@
+{
+    "provider": "google-cloud-storage",
+    "providerOptions": {
+      "serviceAccount": {
+        "type": "service_account",
+        "project_id": "tavan-bogd-group",
+        "private_key_id": "9701eac184fa5ff6428e5ac91461ee5ea49df622",
+        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDjeM5yYyLPlwkX\nc/VhKSXtoBWT1u19QH91g8fheai91kepLtP4n/cBXZzd9FUyA3kjz0p7ySjNoPxs\nY3vssWtp5C5uWGquEWrEb2HfPRHSpAE4lu9O1N32zDmx3hwmg4av3R26eNYm1h1C\nidUPI54krTv5IUe+WJ/9is6UdFOK3QR97mHI/kirBatRZFN6Gtzz4VEVJn91oQUV\nRQiAmhfqweLi30L45dqoCAfPLMlDuom13R2bcxrkRA0Kk5Z7UvQleHXrgIebd3W3\nKoN3+DE6zCdiLacmMjx5p4lPoJ6bCl1E0KqRiftGJ5984wRT21hf/dZDzFZDgMq7\nkBE5UlX/AgMBAAECggEADsnPJ3dJJL8oTigHGeFM9UflCeQn3cQQWpl4qIX6Rxfj\n4hyIl1n++vhqYbD9dkTs3pEewdwav6jpquTvgjx+mTcbyvy14snVwR45+gNvDIdb\ntPbLFBBEEJlyXsfr2JfQbSUuRkM42PQumXbQgoLJneTNSK214QAYq/5sM7vkT9td\n4EFmgWny3wWs4koxw6wdJGjq5ZRWRq8vb2RDpROFoBkUKxqWjMNvJ4PFJ0ZzE19P\nR031V1oUa2MKOjM8Ce9gyrwvHbkPDHXsoVXLiRvlTM3KfWZTuCotT2WBYrup6en6\nne/SlmV+U2rlUpgKCQrXBmqCIeNJFHO2cfbjsafYAQKBgQD0V8+pljtn49T2dG9u\nxNWcyVhygcpjjxPItTLXeBKvdHsJyb4ONBV8xHZTRqRNpychhTGi2EfUQV3YLzaD\nzQDr3T2yZ4hAOp+Mh5j4G6d11UwXUYNsMadSQDGnx9zixx+LsxItNXX6ExJpUoDS\no/CjcBUnGo1Qsd6ZrQRgvqgSAQKBgQDuUvJKmGWcGm89dRDZddQfaJ5NGeo8zjrV\nMhB8qMOmknliFHAOy1gVITNK14xOo5pB8IFhsEHXZFLcx1PivkxCt7AOvzPgV5yu\noL3+oOLK+fasA1EyrJFQwRUO0diGLX1aU6Fglgjn3ofZL3gRLTNTKg8GdcnrRIR+\n/FwpvKpn/wKBgHnWe3cdsVuZcKy/3HzIa5e1koPukiPYyU2whLyKZA7XLy7vSPS+\nJeTD9hiKRg1uhwWg6+I+pHqDaa8Nw8ou5AG4nTYjh/42/S3Ow4kcCQGprTqHa9f8\nXmmWFuyJrWvrTKCVVz/xw3VCI1EfUZs3IhvtHK8V/1c4ij3o1yECkL4BAoGAVyi+\ns8lIX+7LAA7wOpd9HH+GZWw03kgN/CpzHSQbaa/n9JbE5KQ5coDR4W0zQw9SOwta\nRf/QFJX8OAIuC57NBRloqfwDXOitxK/EzHrKdrE0JXSRHZc/DemPafwU0/2O+pnb\nSxeT6jjYNfXGU4HUY3XeSN6LGh/U1Rw2GI2HRMECgYB+pZork+y1psFgvYcuu6fw\nuQxPSskB6tbWlrykhqUeTmTlX2pPElZtUMvIMEMDDRflgJnxQbxywQo0M6lKCUzr\n796aKNGv1BiaGYUAXc5z8S6stW5M5E6Ehm2Oh4kb6EFNRumXActspCk/MHpmJ+po\nmcGgsNLG9ncxMmFTAwVdrg==\n-----END PRIVATE KEY-----\n",
+        "client_email": "web-master@tavan-bogd-group.iam.gserviceaccount.com",
+        "client_id": "105656121506123047780",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/web-master%40tavan-bogd-group.iam.gserviceaccount.com"
+      },
+      "bucketName": "reteworld",
+      "baseUrl": "https://storage.googleapis.com/reteworld",
+      "basePath": "/",
+      "publicFiles": true
+    }
+  }
