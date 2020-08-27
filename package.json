@@ -5,10 +5,11 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
-    
+    "strapi": "strapi",
+    "heroku-postbuild": "npm run build",
+    "start": "strapi start"
+
   },
   "devDependencies": {},
   "dependencies": {
@@ -30,8 +31,8 @@
     "uuid": "09015a7d-5a83-494f-a53c-ae79b772e8bd"
   },
   "engines": {
-    "node": ">=10.0.0",
-    "npm": ">=6.0.0"
+    "node": "^12.16.3",
+    "npm": "6.14.6"
   },
   "license": "MIT"
 }
